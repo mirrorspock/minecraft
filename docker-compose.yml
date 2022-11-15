@@ -7,6 +7,8 @@ services:
       EULA: "TRUE"
       GAMEMODE: survival
       DIFFICULTY: normal
+      ALLOW_CHEATS: "true"
+      DEFAULT_PLAYER_PERMISSION_LEVEL: operator
     ports:
       - 19132:19132/udp
     volumes:
